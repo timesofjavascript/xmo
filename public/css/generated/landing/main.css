@@ -1,0 +1,113 @@
+/* Space out content a bit */
+/* line 2, ../../../../www/landing/public/css/landing.scss */
+body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 7, ../../../../www/landing/public/css/landing.scss */
+.landing-container {
+  width: 70%;
+  margin: auto;
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+/* line 13, ../../../../www/landing/public/css/landing.scss */
+.header,
+.marketing,
+.footer {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Custom page header */
+/* line 21, ../../../../www/landing/public/css/landing.scss */
+.header {
+  padding-bottom: 20px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* Make the masthead heading the same height as the navigation */
+/* line 26, ../../../../www/landing/public/css/landing.scss */
+.header h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 40px;
+}
+
+/* Custom page footer */
+/* line 33, ../../../../www/landing/public/css/landing.scss */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* Customize container */
+@media (min-width: 768px) {
+  /* line 41, ../../../../www/landing/public/css/landing.scss */
+  .container {
+    max-width: 730px;
+  }
+}
+/* line 45, ../../../../www/landing/public/css/landing.scss */
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+/* line 50, ../../../../www/landing/public/css/landing.scss */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+/* line 54, ../../../../www/landing/public/css/landing.scss */
+.jumbotron .btn {
+  padding: 14px 24px;
+  font-size: 21px;
+}
+
+/* Supporting marketing content */
+/* line 60, ../../../../www/landing/public/css/landing.scss */
+.marketing {
+  margin: 40px 0;
+}
+
+/* line 63, ../../../../www/landing/public/css/landing.scss */
+.marketing p + h4 {
+  margin-top: 28px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  /* Remove the padding we set earlier */
+  /* line 70, ../../../../www/landing/public/css/landing.scss */
+  .header,
+  .marketing,
+  .footer {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Space out the masthead */
+  /* line 77, ../../../../www/landing/public/css/landing.scss */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  /* line 81, ../../../../www/landing/public/css/landing.scss */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
+/* line 86, ../../../../www/landing/public/css/landing.scss */
+.page-header {
+  margin-top: 0;
+}
+
+/* line 90, ../../../../www/landing/public/css/landing.scss */
+footer {
+  margin-top: 40px;
+}
