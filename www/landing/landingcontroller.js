@@ -8,7 +8,8 @@ function LandingController() {}
 
 LandingController.prototype.loadView = function(req, res, next) {
 
-    res.render('landing/views/login', {title: 'Xmo'});
+    //res.render('landing/views/login', {title: 'Xmo'});
+    res.render('landing/views/comingsoon', {title: 'Xmo'});
 
 };
 
