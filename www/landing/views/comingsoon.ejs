@@ -4,7 +4,7 @@
   <!-- Theme Made By www.w3schools.com - No Copyright -->
   <title>Times of Javascript</title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
@@ -215,7 +215,7 @@
 <div class="jumbotron text-center">
   <h1>Times of Javascript</h1> 
   <p>Javascript magazine</p> 
-  <form>
+  <form style="width:60%;margin:auto;">
     <div class="input-group">
       <input type="email" class="form-control" size="50" placeholder="Email Address" required>
       <div class="input-group-btn">
@@ -302,7 +302,7 @@
   <div class="row">
     <div class="col-sm-5">
       <p>Subscribe and follow us on youtube and twitter</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> Chicago, US</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Saurabh Verma </p>
       <p><span class="glyphicon glyphicon-phone"></span> <a href="https://twitter.com/javascripttimes">@javascripttimes</a> on Twitter</p>
       <p><span class="glyphicon glyphicon-phone"></span> <a href="https://www.youtube.com/channel/UCV8DYJOfUVwCQY9Q_WG4Zxg">TimesofJavascript</a> on Youtube</p>
       <p><span class="glyphicon glyphicon-envelope"></span> timesofjavascript@gmail.com</p>
@@ -326,33 +326,6 @@
   </div>
 </div>
 
-<div id="googleMap" style="height:400px;width:100%;"></div>
-
-<!-- Add Google Maps -->
-<script src="https://maps.googleapis.com/maps/api/js"></script>
-<script>
-var myCenter = new google.maps.LatLng(41.878114, -87.629798);
-
-function initialize() {
-var mapProp = {
-  center:myCenter,
-  zoom:12,
-  scrollwheel:false,
-  draggable:false,
-  mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-
-var marker = new google.maps.Marker({
-  position:myCenter,
-  });
-
-marker.setMap(map);
-}
-
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
 
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
